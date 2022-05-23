@@ -44,7 +44,7 @@ Guidelines
          > \
          > Generate COCO
       7. Limit number negative images
-      8. Split Dataset
+      8. Split Dataset dan catat jumlah gambar
          > Train: 8\
          > Valid: 1\
          > Test : 1
@@ -60,6 +60,18 @@ Guidelines
          > Generate list of images text file\
          > Copy paths
       3. > Generate
+   3. Model Registration
+      1. Registration Type
+         > Model Version
+      2. Register New Model Version
+         1. Model Version Name: Sesuai Nama Training
+         2. ID of Model Source:
+            > YOLO = 0c35df97-0e46-4769-8fdd-aededac08073
+         3. Input nama file json training
+         4. Input nama file json validation
+         5. Input savedmodel directory
+         6. Input training cfg path dalam savedmodel directory
+      3. > Register
 2. Training YOLO
    1. SSH RKB6
    2. > tmux a -t nanang
@@ -73,8 +85,11 @@ Guidelines
       > buat folder untuk saved model\
       > copy cfg training
    6. Folder for training
-      > /home/ubuntu/deo/workspace/textile/code/darknet/backup + nama folder training
+      > /home/ubuntu/deo/workspace/textile/code/darknet/backup + nama folder training\
       > config file, train.data, test.data, train.names
    7. Commands
-      > ./darknet detector train [train.data path] [training cfg path] [pretrained path] -dont_show -map
+      > ./darknet detector train [train.data path] [training cfg path] [pretrained path] -dont_show -map\
+      > cek hasil dan update di dokumen
       > ./darknet detector map [test.data path] [training cfg path] [best weight in saved model path] -dont_show
+   8. Setelah Training
+      > Isi dokumen ini: https://docs.google.com/spreadsheets/d/1Q6b0-N-OU-gOj6r0O2G5goN5XSXlBRZNBwHCFkiZLfI/edit#gid=299872104
