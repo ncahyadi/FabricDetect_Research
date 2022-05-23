@@ -56,8 +56,26 @@ Guidelines
          > Valid\
          > Test 
       2. Choose Generated Dataset Format:
-         > YOLO Detection
-         > Generate list of images text file
+         > YOLO Detection\
+         > Generate list of images text file\
          > Copy paths
       3. > Generate
-        
+2. Training YOLO
+   1. SSH RKB6
+   2. > tmux a -t nanang
+   3. Darknet directory:
+      > /home/ubuntu/deo/workspace/textile/code/darknet
+      > training graph (nama sesuai dengan nama cfg)
+   4. Dataset directory:
+      > /nfs/ssd-1/textile/temp_dataset + nama_dataset
+   5. SavedModel directory
+      > /nfs/ssd-1/textile/ + nama_folder_training\
+      > buat folder untuk saved model\
+      > copy cfg training
+   6. Folder for training
+      > /home/ubuntu/deo/workspace/textile/code/darknet/backup + nama folder training
+      > config file, train.data, test.data, train.names
+   7. Commands
+      > ./darknet detector train [train.data path] [training cfg path] [pretrained path] -dont_show -map
+      > ./darknet detector map [test.data path] [training cfg path] [best weight in saved model path] -dont_show
+      
