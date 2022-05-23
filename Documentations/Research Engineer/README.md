@@ -59,5 +59,5 @@ Guidelines
          > YOLO Detection
          > Generate list of images text file
          > Copy paths
-      3. Generate
+      3. > Generate
         
