@@ -23,3 +23,11 @@ Guidelines
    1. Port forwarding RKB1
       > ssh -L 8501:localhost:8501 -p 21021 ubuntu@202.158.77.42\
       > pass: adminRKB
+   2. Akses browser
+      > http://localhost:8501/
+   3. Isi Data Info
+      > Creator : nanang\
+      > Description : data-apa_image-size_range-session-code_unique-grouping
+   4. Pemilihan Atribut
+      > Session Code: 17, 19, 20, 21, 22, 23, 24, 25, 26, 27, 35, 36, 37, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53
+      
