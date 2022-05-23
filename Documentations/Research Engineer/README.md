@@ -48,7 +48,7 @@ Guidelines
          > Train: 8\
          > Valid: 1\
          > Test : 1
-      9.  Save coco json
+      9. Save coco json
          > bisa diubah nama file json
    2. Dataset Generation
       1. Choose Json File:
