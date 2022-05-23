@@ -64,7 +64,7 @@ Guidelines
    1. SSH RKB6
    2. > tmux a -t nanang
    3. Darknet directory:
-      > /home/ubuntu/deo/workspace/textile/code/darknet
+      > /home/ubuntu/deo/workspace/textile/code/darknet\
       > training graph (nama sesuai dengan nama cfg)
    4. Dataset directory:
       > /nfs/ssd-1/textile/temp_dataset + nama_dataset
@@ -78,4 +78,3 @@ Guidelines
    7. Commands
       > ./darknet detector train [train.data path] [training cfg path] [pretrained path] -dont_show -map
       > ./darknet detector map [test.data path] [training cfg path] [best weight in saved model path] -dont_show
-      
