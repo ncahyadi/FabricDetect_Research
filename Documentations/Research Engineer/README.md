@@ -27,7 +27,25 @@ Guidelines
       > http://localhost:8501/
    3. Isi Data Info
       > Creator : nanang\
+      > \
       > Description : data-apa_image-size_range-session-code_unique-grouping
    4. Pemilihan Atribut
-      > Session Code: 17, 19, 20, 21, 22, 23, 24, 25, 26, 27, 35, 36, 37, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53
-      
+      > Session Code: 17, 19, 20, 21, 22, 23, 24, 25, 26, 27, 35, 36, 37, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53\
+      > \
+      > dimension = 500x500\
+      > augment = no augment\
+      > defect exist = positive and(or) negative\
+      > Label version = 4\
+      > Additional edit for class type
+   5. > Load Labels
+   6. Penyiapan Label
+      > Include unlabeled images as negative data\
+      > \
+      > Generate COCO
+   7. Limit number negative images
+   8. Split Dataset
+      > Train: 8\
+      > Valid: 1\
+      > Test : 1
+   9. Save coco json
+      > bisa diubah nama file json
